@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black & Gold Heart Widget</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="widget-container">
+      <div class="camera-box">
+        <canvas id="heart-canvas"></canvas>
+        <div class="explosion" id="explosion"></div>
+      </div>
+      <div class="stats-container">
+        <div class="chat-box" id="chat-box"></div>
+        <div class="stats">
+          <div class="stat-item" id="current-subs">Current Subscribers: 0</div>
+          <div class="stat-item" id="new-subs">New Subscribers: 0</div>
+          <div class="stat-item" id="latest-donation">
+            Latest Donation: None yet
+          </div>
+          <div class="stat-item" id="raids">Raids: 0</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.134.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
